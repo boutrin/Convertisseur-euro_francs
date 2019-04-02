@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<script language="javascript">
+		<!--
+		function eurofrancs(form) {
+			form.eur.value = form.fra.value / 6.5597
+		}
+
+		function francseuro(form) {
+			form.fra.value = form.eur.value * 6.5597
+		}
+		// -->
+	</script>
+	
+	
+	<form>
+    <p><input type="text" size="15" name="fra"><input
+    type="button" name="button" value="Francs --&gt; Euro"
+    onclick="eurofrancs(this.form)"><input type="text" size="15"
+    name="eur"> </p>
+</form>
+<form>
+    <p><input type="text" size="15" name="eur"><input
+    type="button" name="button" value="Euro --&gt; Francs"
+    onclick="francseuro(this.form)"><input type="text" size="15"
+    name="fra"> </p>
+</form>
+
+</body>
+</html>
